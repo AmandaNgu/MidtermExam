@@ -1,0 +1,113 @@
+@import url('./layout.css');
+@import url(./reset.css);
+html, body,main, header{
+    height: 100%;
+}
+   
+   
+
+header {
+    background-image:url(../images/charlie-harris-U20fx1ZOAIg-unsplash.jpg);
+    background-position:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    
+}
+#header-option-1 h1{
+    font-size: 60px;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+    color:white;
+}
+#header-option-1 h2{
+    font-size: 60px;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+    color:orange;
+}
+#main-navigation-option-2 {
+    position: top;
+    display: center;
+    height: 125px;
+    width: 125px;
+    
+
+}
+
+#main-option-1{
+    margin: 0 1.5%;
+    width: 10%;
+    display: flex;
+    gap: 2em;
+    margin-left: 1em;
+   
+
+}
+#main-option-1 section{
+    padding:10px;
+    border: 2px solid black;
+    margin-top: 5em;
+    
+}
+.price{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#aside-option-2{ 
+    display:block;
+    float: left;
+    margin-top:1em;
+    width: 100%;
+    border: 2px solid black;
+   
+}
+
+aside h2 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 30px;
+    
+}
+
+aside ul li {
+    padding: 1em;
+}
+
+aside ul li:nth-of-type(even) {
+    background-color:#333;
+    color:white;
+} 
+
+#facebook{
+    width: 40px;
+    height: 40px;
+}
+
+#github{
+    width: 40px;
+    height: 40px;
+}
+
+#linkdin{
+    width: 40px;
+    height: 40px;
+}
+#twitter{
+    width: 40px;
+    height: 40px;
+}
+
+    
+
+
+
+
